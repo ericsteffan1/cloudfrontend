@@ -1,0 +1,56 @@
+styles.css 
+
+body {
+    font-family: verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff ;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+    /* Apply the fade-in effect to sections */
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+h2 {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Rest of your styles... */
+
